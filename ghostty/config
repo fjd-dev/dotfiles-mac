@@ -1,0 +1,27 @@
+font-family = Monaspace Krypton
+font-style = Regular
+font-size = 13
+font-thicken = true
+
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+cursor-style = underline
+cursor-style-blink = false
+
+shell-integration = zsh
+shell-integration-features = no-cursor
+window-decoration = false
+
+window-width = 160
+window-height = 50
+window-padding-x = 10
+window-padding-y = 10
+
+theme = tokyonight_night
+confirm-close-surface = false
+clipboard-paste-protection = false
+
+background-opacity = 0.9
+background-blur-radius = 20
+copy-on-select = true

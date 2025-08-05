@@ -1,0 +1,104 @@
+{
+  // WINDOW
+  "window.customTitleBarVisibility": "auto",
+  "window.titleBarStyle": "custom",
+  // WORKBENCH
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": "single",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.tree.indent": 20,
+  "workbench.editor.restoreViewState": true,
+  "workbench.editor.centeredLayoutAutoResize": true,
+  // EXPLORER
+  "explorer.confirmDelete": false,
+  // EDITOR
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "gutter",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.tabSize": 2,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "underline-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.lineHeight": 1.7,
+  "editor.fontSize": 14.5,
+  "editor.fontFamily": "'Monaspace Krypton', monospace",
+  "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+  "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'cv01' 2, 'cv31' 1",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.matchBrackets": "near",
+  "editor.fontVariations": "'wght' 350",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage,entity,variable",
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // ZEN MODE
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": false,
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.restore": true,
+  "zenMode.showTabs": "single",
+  "zenMode.silentNotifications": true,
+  // TERMINAL
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.fontFamily": "Monaspace Krypton",
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontWeightBold": 600,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyleInactive": "underline",
+  // DEBUG CONSOLE
+  "debug.console.fontFamily": "Monaspace Neon, monospace",
+  // GLASSIT
+  "glassit.alpha": 247,
+  // DENO
+  "deno.enable": true,
+  // TELEMETRY
+  "telemetry.telemetryLevel": "off",
+  // GIT
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  // FILES
+  "files.autoSave": "onFocusChange",
+  //FORMATTERS
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
