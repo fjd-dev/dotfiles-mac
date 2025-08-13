@@ -5,8 +5,8 @@
   "icon_theme": "Bearded Icon Theme",
   "theme": {
     "mode": "system",
-    "light": "One Light",
-    "dark": "Tokyo Night"
+    "light": "Github Dark",
+    "dark": "Github Dark"
   },
   "ui_font_size": 16,
   "scrollbar": {
@@ -14,25 +14,26 @@
   },
   "ui_font_family": "Monaspace Krypton",
   "buffer_font_size": 15,
+  "buffer_font_weight": 300,
   "tab_bar": {
     "show": false
   },
-  "buffer_font_family": "Monaspace Neon",
+  "buffer_font_family": "Monaspace Krypton",
   "ensure_final_newline_on_save": true,
   "current_line_highlight": "gutter",
   "autosave": "on_focus_change",
   "format_on_save": "on",
   "bottom_dock_layout": "contained",
   "selection_highlight": false,
-  "restore_on_startup": "none",
+  "restore_on_startup": "last_session",
   "confirm_quit": false,
   "tab_size": 2,
   "preferred_line_length": 80,
   "auto_update": true,
   "inline_code_actions": true,
   "centered_layout": {
-    "left_padding": 0.07,
-    "right_padding": 0.07
+    "left_padding": 0.03,
+    "right_padding": 0.03
   },
   "cursor_shape": "underline",
   "cursor_blink": true,
@@ -41,7 +42,9 @@
     "enabled": true,
     "coloring": "fixed"
   },
-  "file_scan_inclusions": [".env*"],
+  "file_scan_inclusions": [
+    ".env*"
+  ],
   "git_panel": {
     "dock": "left",
     "scrollbar": {
@@ -72,22 +75,31 @@
     "dock": "left",
     "copy_on_select": true,
     "font_family": "Monaspace Krypton",
+    "font_size": 14,
     "line_height": "standard",
-    "font_weight": 200,
+    "font_weight": 100,
     "cursor_shape": "underline",
     "blinking": "on",
     "shell": {
       "with_arguments": {
         "program": "zsh",
-        "args": ["--login"]
+        "args": [
+          "--login"
+        ]
       }
     },
-    "default_width": 450,
+    "default_width": 200,
     "toolbar": {
       "breadcrumbs": false
     }
   },
   "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "minimal",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4"
+    },
     "dock": "left"
   },
   "notification_panel": {
@@ -105,5 +117,28 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+  "experimental.theme_overrides": {
+    "renamed.background": "#FFFFFF20",
+    "search.match_background": "#FFFFFF20",
+    "ghost_element.background": "#00000010",
+    "ghost_element.hover": "#00000099",
+    "background.appearance": "transparent",
+    "background": "#000000De",
+    "editor.background": "#00000000",
+    "editor.gutter.background": "#00000090",
+    "title_bar.background": "#000000DF",
+    "toolbar.background": "#00000000",
+    "terminal.background": "#00000000",
+    "status_bar.background": "#000000DF",
+    "tab.active_background": "#000000DF",
+    "tab.inactive_background": "#00000000",
+    "tab_bar.background": "#00000010",
+    "panel.background": "#00000010",
+    "border": "#000000DF",
+    "border.variant": "#000000DF",
+    "scrollbar.track.border": "#00000000",
+    "scrollbar.track.background": "#00000000",
+    "scrollbar.thumb.background": "#00000000"
   }
 }

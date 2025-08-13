@@ -7,7 +7,7 @@
   "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "single",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.tree.indent": 20,
   "workbench.editor.restoreViewState": true,
   "workbench.editor.centeredLayoutAutoResize": true,
@@ -28,15 +28,16 @@
   "editor.selectionHighlight": false,
   "editor.occurrencesHighlight": "off",
   "editor.defaultFormatter": "denoland.vscode-deno",
-  "editor.lineHeight": 1.7,
-  "editor.fontSize": 14.5,
+  "editor.lineHeight": 1.6,
+  "editor.fontSize": 14,
+  "editor.fontVariations": "'wght' 300",
+  "editor.fontWeight": "300",
   "editor.fontFamily": "'Monaspace Krypton', monospace",
-  "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+  "editor.inlineSuggest.fontFamily": "'Monaspace Neon', monospace",
   "editor.fontLigatures": "'calt', 'liga', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'cv01' 2, 'cv31' 1",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "editor.matchBrackets": "near",
-  "editor.fontVariations": "'wght' 350",
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -64,17 +65,19 @@
   "zenMode.silentNotifications": true,
   // TERMINAL
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.fontFamily": "Monaspace Krypton",
-  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.fontWeight": 300,
   "terminal.integrated.fontWeightBold": 600,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.cursorStyleInactive": "underline",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.enablePersistentSessions": false,
   // DEBUG CONSOLE
   "debug.console.fontFamily": "Monaspace Neon, monospace",
   // GLASSIT
-  "glassit.alpha": 247,
+  "glassit.alpha": 175,
   // DENO
   "deno.enable": true,
   // TELEMETRY
@@ -83,22 +86,20 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-  // FILES
-  "files.autoSave": "onFocusChange",
-  //FORMATTERS
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
+  // CoPilot
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false
+  },
+  // FILES
+  "files.autoSave": "onFocusChange",
+  //FORMATTERS
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }

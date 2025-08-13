@@ -1,6 +1,7 @@
 font-family = Monaspace Krypton
 font-style = Regular
 font-size = 15
+font-thicken = false
 
 adjust-underline-position = 40%
 adjust-underline-thickness = -60%
@@ -17,10 +18,10 @@ window-height = 50
 window-padding-x = 10
 window-padding-y = 10
 
-theme = tokyonight_night
+theme = GitHub-Dark-Default
 confirm-close-surface = false
 clipboard-paste-protection = false
 
-background-opacity = 0.9
+background-opacity = 0.95
 background-blur-radius = 20
 copy-on-select = true
