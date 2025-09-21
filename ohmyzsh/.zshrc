@@ -31,6 +31,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# FLUTTER
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export GEM_HOME=$HOME/.gem
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
+export PATH=$GEM_HOME/bin:$PATH
+export PATH=$HOME/Developer/mobile/flutter/bin:$PATH
+export ANDROID_HOME=$HOME/Developer/mobile/android
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
+  
+
+
 # The following lines have been added by Docker Desktop to enable Docker CLI completions.
 fpath=(/Users/fd/.docker/completions $fpath)
 autoload -Uz compinit
